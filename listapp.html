@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>Shopping List APP
+			</title>
+			<link rel="stylesheet" href="style.css">
+			<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+			<style type="text/css"></style>
+		</head>
+	<body>
+		<div class="container">
+			<header class="masthead">
+				<h1 class="masthead-intro">Shopping Checkist APP</h1>
+				<h2 class="masthead-heading">Making shopping easier, one check at a time.</h2>
+			</header>
+			<form id="userImput">
+				<input type="text" id="inputBox" value placeholder="Type in an item and hit 'Enter'" size="30">
+			</form>
+			<div class="allItems">
+				<ul>
+					<li class="currentItem">
+						<img class="checked" src="images/checkmark.png"> "milk"
+						<img class="trash" src="images/trashcan.png"> 
+					</li>
+					<li class="currentItem">
+						<img class="checked" src="images/checkmark.png"> "bread"
+						<img class="trash" src="images/trashcan.png">
+					</li>
+					<li class="currentItem">
+						<img class="checked" src="images/checkmark.png"> "eggs"
+						<img class="trash" src="images/trashcan.png">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
