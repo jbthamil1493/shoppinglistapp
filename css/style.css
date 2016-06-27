@@ -1,0 +1,77 @@
+html {
+	display: block;
+}
+
+body {
+	display: block;
+	margin: 8px;
+}
+
+.container {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+
+div {
+	display: block;
+}
+
+h1 {
+	display: block;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+ul {
+	display: block;
+}
+
+li {
+	list-style: none;
+}
+
+li.linethrough {
+	text-decoration: line-through;
+}
+
+.allItems li {
+	text-align: middle;
+	height: 64px;
+}
+
+.checked {
+	vertical-align: middle;
+	height: 64px;	
+}
+
+.trash {
+	vertical-align: middle;
+	height: 64px;
+}
+
+input {
+	background-color: white;
+	padding: 1px;
+	border-width: 2px;
+	border-style: inset;
+	border-color: initial;
+}
+
+button {
+	align-items: flex-start;
+	text-align: center;
+	cursor: default;
+	color: buttontext;
+	box-sizing: border-box;
+	padding: 2px 6px 3px;
+	border-width: 2px;
+	border-style: outset;
+	border-color: buttonface;
+	text-rendering: auto;
+	display: inline-block;
+}
